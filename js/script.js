@@ -162,6 +162,14 @@
       addScrollMagic('#skills-services .box-services-content .services', 0.90, false);
       addScrollMagic('#skills-services .skill .fill', 0.75, false);
 
+      addScrollMagic('#experiences .box-title h2', 0.95, false);
+      addScrollMagic('#experiences .box-title .line', 0.95, false);
+      addScrollMagic('#experiences .box-title p', 0.95, false);
+
+      addScrollMagic('#education-history .box-title h2', 0.95, false);
+      addScrollMagic('#education-history .box-title .line', 0.95, false);
+      addScrollMagic('#education-history .box-title p', 0.95, false);
+
       addScrollMagic('#contact .box-title h2', 0.95, false);
       addScrollMagic('#contact .box-title .line', 0.95, false);
       addScrollMagic('#contact .box-title p', 0.95, false);

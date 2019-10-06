@@ -1,17 +1,17 @@
 #about {
 	background: url(/img/about.jpg) no-repeat 50%;
-    background-size: cover;
-    background-attachment: scroll;
-    height: 100%;
-    overflow: auto;
-    text-align: center;
+	background-size: cover;
+	background-attachment: scroll;
+	height: 100%;
+	overflow: auto;
+	text-align: center;
     
 
-    @include breakpoint('tablet-up') { 
-    	background-attachment: fixed;
-    }
+	@include breakpoint('tablet-up') { 
+		background-attachment: fixed;
+	}
 
-    .bg-filter {
+	.bg-filter {
 		height: 100%;
 		overflow: auto;
 		width: 100%;
@@ -22,25 +22,27 @@
 		@include flexbox;
 		@include flex-direction(column);
 		@include flex-justify-content(center);
-    }
+	}
 
-    .container-about{
-    	padding: 150px 0;
+	.container-about{
+		padding: 150px 0;
 
-    	.descripition {
-	    	font-weight: 400;
-	    	font-size: 20px;
-	    	color: $white;
-	    	transition: transform 800ms ease-in-out 150ms, opacity 800ms ease-in-out 150ms; 
-	    	opacity: 0;
+		.descripition {
+			font-weight: 400;
+			font-size: 16px;
+			color: $white;
+			transition: transform 800ms ease-in-out 150ms, opacity 800ms ease-in-out 150ms; 
+			opacity: 0;
 			@include transform(translateY(150px));
+			
+			@include breakpoint('tablet') { 
+				font-size: 20px;
+			}
 
-	    	&.animation{
-	    		opacity: 1;
-			    @include transform(translateY(0px));
-	    	}
-	    }
-    }
-
-    
+			&.animation{
+				opacity: 1;
+				@include transform(translateY(0px));
+			}
+		}
+	}    
 }

@@ -1,15 +1,15 @@
 header {
 	background: url(/img/header-bg-computer.jpg) no-repeat 50%;
-    background-size: cover;
-    background-attachment: scroll;
-    height: 100%;
-    overflow: auto;
+	background-size: cover;
+	background-attachment: scroll;
+	height: 100%;
+	overflow: auto;
 
-    @include breakpoint('tablet-up') { 
-    	background-attachment: fixed;
-    }
+	@include breakpoint('tablet-up') { 
+		background-attachment: fixed;
+	}
 
-    .bg-filter {
+	.bg-filter {
 		height: 100%;
 		overflow: auto;
 		width: 100%;
@@ -20,7 +20,7 @@ header {
 		@include flexbox;
 		@include flex-direction(column);
 		@include flex-justify-content(center);
-    }
+	}
 
 
 
