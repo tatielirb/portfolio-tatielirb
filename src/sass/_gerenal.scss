@@ -30,17 +30,21 @@ body, html {
 	.box-title {
 
 		h2 {
-			font-size: 50px;
+			font-size: 24px;
 			font-weight: 700;
 			margin-bottom: 0px;
 			transition: transform 800ms ease-in-out 150ms, opacity 800ms ease-in-out 150ms; 
-	    	opacity: 0;
+	    opacity: 0;
 			@include transform(translateX(150px));
 
-	    	&.animation{
-	    		opacity: 1;
-			    @include transform(translateX(0px));
-	    	}
+			@include breakpoint('tablet') { 
+				font-size: 50px;
+			}
+
+			&.animation{
+				opacity: 1;
+				@include transform(translateX(0px));
+			}
 		}
 
 		.line {
@@ -59,13 +63,17 @@ body, html {
 		}
 
 		p {
-			font-size: 20px;
+			font-size: 16px;
 			font-weight: 400;
 			margin-top: 30px;
 			margin-bottom: 50px;
 			transition: transform 800ms ease-in-out 150ms, opacity 800ms ease-in-out 150ms; 
-	    	opacity: 0;
+	    opacity: 0;
 			@include transform(translateY(50px));
+
+			@include breakpoint('tablet') { 
+				font-size: 20px;
+			}
 
 	    	&.animation{
 	    		opacity: 1;

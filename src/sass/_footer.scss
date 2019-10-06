@@ -1,13 +1,20 @@
 footer{
 	background: $navy-gray;
 	color: $white;
-	font-size: 20px;
+	font-size: 16px;
 	text-align: center;
 	padding: 40px 0 20px;
 	position: relative;
 
+	@include breakpoint('tablet') { 
+		font-size: 20px;
+	}
+
 	span {
-		font-size: 24px;
+		font-size: 20px;
+		@include breakpoint('tablet') { 
+			font-size: 24px;
+		}
 	}
 
 	.to-top {
@@ -16,8 +23,8 @@ footer{
 		margin: 0 auto;
 		animation: shakeArrow 2s infinite linear 600ms;
 		bottom: 100%;
-	    left: 48%;
-	    @include transform(translateY(-48%));
+		left: 48%;
+		@include transform(translateY(-48%));
 		p{
 			font-size: 0px;
 		}
