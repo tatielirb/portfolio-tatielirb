@@ -164,11 +164,11 @@
 
       addScrollMagic('#experiences .box-title h2', 0.95, false);
       addScrollMagic('#experiences .box-title .line', 0.95, false);
-      addScrollMagic('#experiences .box-title p', 0.95, false);
+      addScrollMagic('#experiences .card', 0.90, false);
 
       addScrollMagic('#education-history .box-title h2', 0.95, false);
       addScrollMagic('#education-history .box-title .line', 0.95, false);
-      addScrollMagic('#education-history .box-title p', 0.95, false);
+      addScrollMagic('#education-history .card', 0.90, false);
 
       addScrollMagic('#contact .box-title h2', 0.95, false);
       addScrollMagic('#contact .box-title .line', 0.95, false);

@@ -22,14 +22,18 @@
 		.customers {
 			width: 100%;
 			float: left;
-		    position: relative;
-		    display:block;
-		    box-sizing: border-box;
-		    cursor: pointer;
-		    opacity: 0;
-		    @include breakpoint('tablet-up') { 
+			position: relative;
+			display:block;
+			box-sizing: border-box;
+			cursor: pointer;
+			opacity: 0;
+
+			@include breakpoint('tablet') { 
 				width: 50%;
-		    }
+			}
+			@include breakpoint('tablet-up') { 
+				width: 50%;
+			}
 			@include breakpoint('desktop') { 
 				width: 25%;
 			}
@@ -97,12 +101,12 @@
 					    	font-size: 32px;
 					    	font-weight: 600;
 					    	line-height: 1.2;
-							padding: 5px 1em;
-							text-transform: uppercase;
-							@include transition(transform .35s);
-						    @include transform(translate3d(0, -20px, 0));
-						    opacity: 0;
-					    }
+								padding: 5px 1em;
+								text-transform: uppercase;
+								@include transition(transform .35s);
+									@include transform(translate3d(0, -20px, 0));
+									opacity: 0;
+								}
 
 					    h4 {
 					    	font-size: 26px;
