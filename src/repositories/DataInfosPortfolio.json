@@ -1,0 +1,76 @@
+{
+  "result": {
+    "pageIndex": 1,
+    "portfolioList": [
+      {
+        "name": "",
+        "typeSite": "",
+        "contractor": ""
+      },
+      {
+        "name": "",
+        "typeSite": "",
+        "contractor": ""
+      }
+    ],
+    "titleExperiences": "Experiences",
+    "description": "",
+    "ExperiencesList ": [
+      {
+        "name": "Warren",
+        "positionHeld": "Developer",
+        "companyTime": "Ouc/2019 at moment"
+      },
+      {
+        "name": "DBServer",
+        "positionHeld": "Developer",
+        "companyTime": "Jun/2019 - Oct/2019"
+      },
+      {
+        "name": "Hogarth WorldWide",
+        "positionHeld": "Developer Front-end",
+        "companyTime": "Jul/2017 - Jun/2019"
+      },
+      {
+        "name": "Huia",
+        "positionHeld": "Developer Front-end",
+        "companyTime": "Jul/2016 - Jul/2017"
+      },
+      {
+        "name": "Base Digital",
+        "positionHeld": "Developer Front-end",
+        "companyTime": "Oct/2015 - Jun/2016"
+      },
+      {
+        "name": "Aldeia",
+        "positionHeld": "Developer Front-end",
+        "companyTime": "Feb/2014 - Jun/2015"
+      }
+    ],
+    "titleEducation": "Education History",
+    "descriptionEducation": "",
+    "educationList ": [
+      {
+        "graduatePlace": "UniRitter University",
+        "graduate": "Postgraduate User Experiencie",
+        "graduateTime": "2017/2018 - completed"
+      },
+      {
+        "graduatePlace": "Alcides Maya College of Technology",
+        "graduate": "Tecnologo Internet Systems",
+        "graduateTime": "2013/2015 - completed"
+      },
+      {
+        "graduatePlace": "Treina Web",
+        "graduate": "Complementary Courses: HTML5, CSS3, JS",
+        "graduateTime": "2014/2016 - completed"
+      },
+      {
+        "graduatePlace": "Alcides Maya College of Technology",
+        "graduate": "Computer Technician",
+        "graduateTime": "2010/2011 - completed"
+      }
+    ]
+  },
+  "httpStatusCode": 200
+}
